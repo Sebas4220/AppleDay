@@ -1,0 +1,334 @@
+body{
+
+background-color: #0e0e0e;
+font-family: 'Overpass', sans-serif;
+
+}
+
+.navbar-toggler{
+border: none;
+}
+
+nav{
+
+background-color: black;
+
+}
+
+
+
+.offcanvas{
+
+background-color: black;
+
+}
+
+
+
+.offcanvas-body ul li a{
+
+color: white;
+height: 100%;
+border-bottom: solid transparent 1px;
+height: 33px;
+
+
+}
+
+.offcanvas-body ul li a:hover{
+
+color: #ffd000;
+border-bottom: solid #ffd000 1px;
+height: 33px;
+
+}
+
+.offcanvas-body ul li a:active{
+
+color: #ffd000;
+}
+
+.offcanvas-body ul li a:focus{
+
+color: #ffd000;
+}
+
+
+#seccion1{
+
+border-radius: 0%;
+
+}
+
+
+.carousel-inner{
+
+padding: 0%;
+margin: 0%;
+
+}
+
+
+#Fondo1{
+
+background-image: url(./Imagenn1.png);
+background-size: cover;
+
+
+}
+
+#Fondo1 h1
+{
+
+    color: #ffffff;
+
+}
+
+
+#Fondo1 p
+{
+
+    color: #ffffff;
+
+font-size: 20px;
+
+}
+
+
+
+.animacion{
+
+color: #ffffff;
+font-size: 800px;
+
+}
+
+.animacion {
+display: inline-flex;
+animation: move 2s infinite;
+}
+
+
+@keyframes move{
+0%{
+
+opacity: 100%;
+font-size: 80px;
+
+}
+25%{
+
+    opacity: 10%;
+    font-size: 80px;
+
+}
+50%{
+opacity: 100%;
+font-size: 80px;
+
+}
+
+
+75%{
+
+opacity: 10%;
+font-size: 80px;
+
+}
+
+100%{
+
+    opacity: 100%;
+    font-size: 80px;
+    
+}
+
+}
+
+
+
+
+#card{
+
+border: none;
+border-radius: 0;
+
+}
+
+
+
+#Iphones{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+#Iphones .card{
+
+background-color: black;
+width: 100%;
+border-radius: 3em;
+
+}
+
+
+
+#Iphones h1{
+
+color: rgb(255, 255, 255);
+
+}
+
+
+#Iphones #estados{
+
+
+    color:#dc9a01;
+
+
+}
+
+
+#Iphones p{
+
+color: rgb(255, 255, 255);
+padding: 0.3em;
+font-size: 16px;
+    
+}
+
+
+#Boton1{
+background-color: transparent;
+color: #dc9a01;
+border-radius: 2em;
+border: solid #dc9a01 2px;
+width: 100%;
+font-size:20px;
+height: 40px;
+
+
+}
+
+#Boton1:hover{
+
+background-color: #dc9a01;
+color: black;
+
+}
+
+
+#Ventasalmayor{
+
+    width: 100%;
+    background-color: transparent;
+    border:none;
+    display: inline block;
+    border-radius: 0%;
+    
+}
+
+
+
+
+#Ventasalmayor h1{
+
+color: #ffffff;border-right: #000000;
+
+}
+
+
+
+#Boton2{
+background-color: #dc9a01;
+color: #000000;
+border: none;
+border-radius: 2em;
+width: 60%;
+height: 60px;
+font-size:30px;
+font-size: 25px;
+
+
+}
+
+#Boton2:hover{
+
+background-color: #000000;
+color: rgb(255, 255, 255);
+
+}
+
+
+#card2{
+
+background-color: transparent;
+border: none;
+
+}
+
+
+
+
+#footer{
+    background-color: #000000;
+    
+}
+
+#footer h1{
+    padding: 0;
+    margin: 0;
+    color: rgb(255, 255, 255);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    font-size: 25px;
+}
+
+
+#Ventasalmayor{
+
+display: flex;
+align-items: center;
+justify-content: center; 
+background-image: url(./Fondo\ footer2.png);
+background-size: cover;
+
+
+}
+
+
+#Contenido{
+
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    color: white;
+
+}
+
+
+
+
+.dropdown-menu{
+
+    background-color: black;
+
+}
+
+.dropdown-menu a:hover{
+background-color: transparent;
+color: #dc9a01;
+}
+
+
+
+.card{
+
+background-color:#dc9a01;
+}
